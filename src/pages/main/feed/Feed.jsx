@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Post from "./Post";
-import Header from "../../../components/Header";
-import StatusBar from "../StatusBar";
+import Header from "../../../components/Header.jsx";
+import StatusBar from "../StatusBar.jsx";
 
 const Feed = () => {
   let posts = [

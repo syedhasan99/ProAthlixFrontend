@@ -1,14 +1,12 @@
 import React from "react";
-import Header from "../../components/Header";
-import Tabs from "../../components/Tabs";
-import StatusBar from "./StatusBar";
-import Feed from "./feed/Feed";
+import Tabs from "../../components/Tabs.jsx";
+import Feed from "./feed/Feed.jsx";
 import { Route, Routes } from "react-router-dom";
-import Explore from "../explore/Explore";
-import NotFound from "../notfound/NotFound";
-import Profile from "../profile/Profile";
-import Notifications from "../notifications/Notifications";
-import Upload from "../upload/upload";
+import Explore from "../explore/Explore.jsx";
+import NotFound from "../notfound/NotFound.jsx";
+import Profile from "../profile/Profile.jsx";
+import Notifications from "../notifications/Notifications.jsx";
+import Upload from "../upload/Upload.jsx";
 
 const MainPage = () => {
   return (

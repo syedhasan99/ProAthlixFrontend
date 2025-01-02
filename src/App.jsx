@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import NotFound from './pages/notfound/NotFound'
-import Login from './pages/login/login'
-import MainPage from './pages/main/MainPage'
-import SignUp from './pages/signup/SignUp'
+import NotFound from './pages/notfound/NotFound.jsx'
+import Login from './pages/login/login.jsx'
+import MainPage from './pages/main/MainPage.jsx'
+import SignUp from './pages/signup/SignUp.jsx'
 
 const App = () => {
   return (
