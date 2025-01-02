@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.25s ease-in-out;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: #1D1C21;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+/* post dimesions setting */
+.post-square {
+    width: 100%; /* Adjust based on container */
+    aspect-ratio: 1 / 1;
+    object-fit: cover; /* Crop if necessary */
+}
+.post-portrait {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+}
+.post-landscape {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+.post-fullscreen {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+}
+
+/* gap after feed component to let the 'Tabs' taken the space */
+.feed::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+}
